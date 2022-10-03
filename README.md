@@ -1,6 +1,6 @@
 # Portfolio Website Practice
 
-This is Joshua Yoon's portfolio mockup for future reference. This is meant to be practice for basic front-end development (HTML/CSS/JavaScript).
+This is Joshua Yoon's portfolio mockup for future reference. This is meant to be practice for basic front-end development (HTML/CSS/JavaScript) and Git usage.
 
 ## Installation
 
