@@ -6,7 +6,10 @@
 
 body {
   margin: 0rem;
-  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
 }
 
 .main-menu {
