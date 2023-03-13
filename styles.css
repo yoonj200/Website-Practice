@@ -16,7 +16,6 @@ html {
 }
 /* ---------- Navbar ---------- */
 #navbar {
-  vertical-align: middle;
   display: flex;
   justify-content: flex-end;
   position: fixed;
@@ -25,6 +24,7 @@ html {
   height: 10vh;
   min-height: 75px;
   z-index: 1;
+  padding-top: 15px;
 }
 
 #navbar ul {
@@ -41,7 +41,8 @@ html {
   color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 0.5rem;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 #navbar a:hover {
@@ -51,7 +52,7 @@ html {
 /* ---------- Sections ---------- */
 section {
   height: 100vh;
-  padding-top: 120px;
+  padding-top: 100px;
   text-align: center;
   overflow: auto;
 }
