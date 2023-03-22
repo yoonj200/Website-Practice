@@ -132,18 +132,18 @@ footer ul {
 
 footer li {
   padding: 2rem 5rem;
-}
-
-.contact-button {
-  display: inline-block;
-  text-decoration: none;
-  color: #ffffff;
+} */
+.contact-btn {
+  /* display: inline-block; */
+  /* text-decoration: none; */
+  /* color: #ffffff; */
   transition: transform 0.25s ease-out;
 }
 
-.contact-button:hover {
+a.contact-btn:hover {
+  color: red;
   transform: translateY(8px);
-} */
+}
 
 
 /* ---------- Media Queries ---------- */
