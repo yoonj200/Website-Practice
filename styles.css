@@ -50,7 +50,13 @@ footer {
   width: 100%;
 }
 
-#github-link, #linkedin-link:hover {
+footer a#github-link,
+footer a#linkedin-link {
+  font-size: 1.75em;
+}
+
+footer a#github-link:hover, 
+footer a#linkedin-link:hover {
   color: red;
   transform: translateY(8px);
 }
