@@ -45,6 +45,9 @@ nav {
 /* ---------- Footer ---------- */
 footer {
   border-top: 1px solid red;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #github-link, #linkedin-link:hover {
