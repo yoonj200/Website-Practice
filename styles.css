@@ -7,6 +7,35 @@ nav {
   border-bottom: 1px solid red;
 }
 
+/* .nav-item a.nav-link {
+  color: white;
+  font-weight: bold;
+} */
+
+.nav-item a.nav-link {
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-item a.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: width 0.2s ease-in-out, left 0.2s ease-in-out;
+}
+
+.nav-item a.nav-link:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+
+
 /* ---------- Sections ---------- */
 
 
