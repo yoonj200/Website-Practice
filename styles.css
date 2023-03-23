@@ -19,7 +19,7 @@ nav {
 }
 
 .nav-item a.nav-link::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0px;
   left: 0;
@@ -34,13 +34,9 @@ nav {
   left: 0;
 }
 
-
-
 /* ---------- Sections ---------- */
 
-
 /* ---------- Project Grid ---------- */
-
 
 /* ---------- Footer ---------- */
 footer {
@@ -55,7 +51,7 @@ footer a#linkedin-link {
   font-size: 1.75em;
 }
 
-footer a#github-link:hover, 
+footer a#github-link:hover,
 footer a#linkedin-link:hover {
   color: red;
   transform: translateY(8px);
